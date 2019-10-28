@@ -17,12 +17,12 @@ body {
     margin: 0;
 }
 
-button {
+/*button {
     position: absolute;
     size: 5px;
     outline: none;
     cursor: pointer;
-}
+}*/
 
 h1.green {
     position: absolute;
@@ -50,6 +50,23 @@ h1.white {
     margin: 0;
 }
 
+img.teachers_photo {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+
+} 
+
+.menu_tab {
+    margin-top: -3px;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
 h2.zagolovki {
     align-items: center;
     justify-content:flex-end;
@@ -61,10 +78,10 @@ h2.zagolovki {
 
 h2.zagolovok_centr {
     display: flex;
-    margin-top: 500px;
+    margin-top: 300px;
     position: absolute;
-    align-items: center;
-    justify-content:center;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 50px;
     font-weight: bold;
     color: #438D80;
@@ -104,6 +121,7 @@ h3.black {
 
 .fone_site {
     width: -webkit-fill-available;
+    position: ;
 }
 
 .poster {
@@ -138,8 +156,9 @@ h3.black {
 
 button.seti {
     display: flex;
-    align-content: center;
-    size: 10px;
+    justify-content: space-around;
+    width: 50px;
+    height: 50px;
 }
 
 .o_nas{
@@ -156,22 +175,52 @@ button.seti {
     height:300px;
 }
 
-.curce{
+.curse{
     max-width: 1170px;
-    margin-top: 800px;
+    margin-top: 500px;
     display: flex;
-    position: absolute;
+    
     justify-content: space-around;
     background: none;
 }
 
+.sale{
+    max-width: 1170px;
+margin-top: 200px;
+display: flex;
+justify-content: space-around;
+background: none;
+} 
+
+.teachers{
+    max-width: 1170px;
+margin-top: 600px;
+display: flex;
+
+justify-content: space-around;
+background: none;
+}
+
 .variant{
-    position: absolute;
+    position: unset;
     background-color: #F9E6A9;
     justify-content: space-around;
     width: 200px ;
     height: 400px ;
-    margin-top: 600px;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #438D80;
+}
+
+.variant1{
+    position: unset;
+    background-color: #F9E6A9;
+    justify-content: space-around;
+    width: 200px ;
+    height: 400px ;
+    margin-top: 100px;
     border-radius: 4px;
     font-size: 16px;
     font-weight: bold;
@@ -179,12 +228,19 @@ button.seti {
 }
 
 button.zapis{
+    margin: auto;
     display: flex;
     align-content: flex-end;
     justify-content: center;
-    background-color: chartreuse;
-  
-    
+    background-color: #219653;
+}
+
+button.podrobnee {
+    margin: auto;
+    display: flex;
+    align-content: flex-end;
+    justify-content: center;
+    background-color: #219653;
 }
 
 p.name_curse {
@@ -194,3 +250,10 @@ p.name_curse {
     justify-content: center;
 }
 
+.teachers_photo{  
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    font-size: 25px;  
+}
