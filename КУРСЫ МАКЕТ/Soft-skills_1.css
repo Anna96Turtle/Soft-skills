@@ -1,0 +1,196 @@
+/*
+    COMMON-STYLES
+*/
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    max-width: 1170px;
+    background-color: #438D80;
+    
+}
+
+body {
+    margin: 0;
+}
+
+button {
+    position: absolute;
+    size: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+h1.green {
+    position: absolute;
+    width: 585px;
+display: flex;
+align-items: center;
+justify-content:flex-end;
+height: -webkit-fill-available;
+    font-size: 100px;
+    font-weight: bold;
+    color: #438D80;
+    margin: 0;
+}
+
+h1.white {
+    position: absolute;
+    width: 585px;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    height: -webkit-fill-available;
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}
+
+h2.zagolovki {
+    align-items: center;
+    justify-content:flex-end;
+    font-size: 50px;
+    font-weight: bold;
+    color: #438D80;
+    margin: 0;
+}
+
+h2.zagolovok_centr {
+    display: flex;
+    margin-top: 500px;
+    position: absolute;
+    align-items: center;
+    justify-content:center;
+    font-size: 50px;
+    font-weight: bold;
+    color: #438D80;
+    margin: 0;
+}
+
+h3.black {
+    font-size: 25px;
+    position: absolute;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: -webkit-fill-available;
+    font-weight: bold;
+    color: black;
+    margin-top: 130px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1170px;
+    height: 55px;
+    margin: auto;
+    font-size: 30px;
+}
+
+
+.main-container{ 
+    max-width: 1170px;
+    height: auto;
+    flex: 50%;
+    background-color: white;
+} 
+
+
+.fone_site {
+    width: -webkit-fill-available;
+}
+
+.poster {
+    
+    height: 100vh;
+    width: 585px
+}
+
+.message {
+    max-width: 1170px;
+    height: 100vh;
+    display: flex; 
+    align-items: center;
+    
+}
+
+.left-part {
+    display: flex;
+    width: 585px;
+    height: 100vh;
+    justify-content: flex-start;
+}
+
+.right-part{
+    width: 585px;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-flow: wrap;
+}
+
+button.seti {
+    display: flex;
+    align-content: center;
+    size: 10px;
+}
+
+.o_nas{
+    max-width: 1170px;
+    height: 800px;
+    margin-top: 50px;
+    margin-left: 100px;
+    position: absolute;
+}
+
+.video {
+    position: absolute;
+    width: 400px;
+    height:300px;
+}
+
+.curce{
+    max-width: 1170px;
+    margin-top: 800px;
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    background: none;
+}
+
+.variant{
+    position: absolute;
+    background-color: #F9E6A9;
+    justify-content: space-around;
+    width: 200px ;
+    height: 400px ;
+    margin-top: 600px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #438D80;
+}
+
+button.zapis{
+    display: flex;
+    align-content: flex-end;
+    justify-content: center;
+    background-color: chartreuse;
+  
+    
+}
+
+p.name_curse {
+    margin-top: 10px;
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+}
+
