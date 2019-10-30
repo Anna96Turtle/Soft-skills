@@ -8,9 +8,33 @@
 }
 
 header{
-    max-width: 1170px;
-    background-color: #438D80;
+    position: fixed;
+    width: 100%;
+    background: linear-gradient(45deg, #F9E6A9, #81C7BB);
+    z-index: 5;
+}
+
+header.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+footer{
+margin-top: 200px;
+position: relative;
+height: 473px;
+padding-top: 60px;
+background: linear-gradient(45deg, #F9E6A9, #81C7BB);
+
+}
+
+.main-container{ 
     
+    padding-top: 40px;
+    flex: 50%;
+    background-color: white;
 }
 
 body {
@@ -26,7 +50,7 @@ body {
 
 h1.green {
     position: absolute;
-    width: 585px;
+    width: 50%;
 display: flex;
 align-items: center;
 justify-content:flex-end;
@@ -39,7 +63,7 @@ height: -webkit-fill-available;
 
 h1.white {
     position: absolute;
-    width: 585px;
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content:flex-start;
@@ -50,16 +74,8 @@ h1.white {
     margin: 0;
 }
 
-img.teachers_photo {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    position: relative;
-
-} 
-
 .menu_tab {
+    border-radius: 50%;
     margin-top: -3px;
     width: 50px;
     height: 50px;
@@ -68,20 +84,28 @@ img.teachers_photo {
 }
 
 h2.zagolovki {
-    align-items: center;
-    justify-content:flex-end;
+    position: relative;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 100px;
+    color: #438D80;
+}
+
+
+h2.zagolovok_centr {
+    display: flex;
+    margin-top: 300px;
+    position: absolute;
     font-size: 50px;
     font-weight: bold;
     color: #438D80;
     margin: 0;
 }
 
-h2.zagolovok_centr {
+h2.zagolovki_right {
     display: flex;
+    justify-content: flex-end;
     margin-top: 300px;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
     font-size: 50px;
     font-weight: bold;
     color: #438D80;
@@ -90,11 +114,10 @@ h2.zagolovok_centr {
 
 h3.black {
     font-size: 25px;
-    position: absolute;
     width: 50%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     height: -webkit-fill-available;
     font-weight: bold;
     color: black;
@@ -105,34 +128,26 @@ h3.black {
     display: flex;
     justify-content: space-around;
     max-width: 1170px;
-    height: 55px;
+    height: 40px;
     margin: auto;
     font-size: 30px;
 }
 
-
-.main-container{ 
-    max-width: 1170px;
-    height: auto;
-    flex: 50%;
-    background-color: white;
-} 
-
-
 .fone_site {
-    width: -webkit-fill-available;
-    position: ;
+    position: absolute;
+    top: 100vh;
+    width: 100%;
+    padding-top: 40px;
 }
 
 .poster {
     
     height: 100vh;
-    width: 585px
+    width: 100%
 }
 
 .message {
-    max-width: 1170px;
-    height: 100vh;
+    height: calc(100vh - 40px);
     display: flex; 
     align-items: center;
     
@@ -140,14 +155,14 @@ h3.black {
 
 .left-part {
     display: flex;
-    width: 585px;
-    height: 100vh;
+    width: 50%;
+    height:  calc(100vh - 40px);
     justify-content: flex-start;
 }
 
 .right-part{
-    width: 585px;
-    height: 100vh;
+    width: 50%;
+    height:  calc(100vh - 40px);
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
@@ -155,73 +170,83 @@ h3.black {
 }
 
 button.seti {
+    border-radius: 50%;
     display: flex;
     justify-content: space-around;
     width: 50px;
     height: 50px;
+    
 }
 
 .o_nas{
-    max-width: 1170px;
-    height: 800px;
     margin-top: 50px;
-    margin-left: 100px;
-    position: absolute;
+    
+}
+
+h2.centr {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: 50px;
+    font-weight: bold;
+    color: #438D80;
+    margin: 0;
 }
 
 .video {
-    position: absolute;
     width: 400px;
     height:300px;
+  
+    margin-left: 100px;
+    position: sticky;
 }
 
 .curse{
-    max-width: 1170px;
-    margin-top: 500px;
-    display: flex;
     
+    margin-top: 100px;
+    display: flex;
+    position: relative;
     justify-content: space-around;
     background: none;
 }
 
 .sale{
-    max-width: 1170px;
-margin-top: 200px;
+    
+margin-top: 100px;
 display: flex;
 justify-content: space-around;
 background: none;
 } 
 
 .teachers{
-    max-width: 1170px;
-margin-top: 600px;
+    
 display: flex;
-
+position: relative;
 justify-content: space-around;
 background: none;
 }
 
 .variant{
-    position: unset;
+    
     background-color: #F9E6A9;
     justify-content: space-around;
     width: 200px ;
     height: 400px ;
     margin-top: 100px;
-    border-radius: 4px;
+    border-radius: 5px;
     font-size: 16px;
     font-weight: bold;
     color: #438D80;
 }
 
 .variant1{
-    position: unset;
+    
     background-color: #F9E6A9;
     justify-content: space-around;
     width: 200px ;
     height: 400px ;
     margin-top: 100px;
-    border-radius: 4px;
+    border-radius: 5px;
     font-size: 16px;
     font-weight: bold;
     color: #438D80;
@@ -233,6 +258,7 @@ button.zapis{
     align-content: flex-end;
     justify-content: center;
     background-color: #219653;
+    margin-top: 300px;
 }
 
 button.podrobnee {
@@ -241,19 +267,77 @@ button.podrobnee {
     align-content: flex-end;
     justify-content: center;
     background-color: #219653;
+    margin-top: 180px;
+}
+
+.photo{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 p.name_curse {
-    margin-top: 10px;
+    
     display: flex;
     align-content: flex-start;
     justify-content: center;
+    flex-grow: initial;
 }
 
-.teachers_photo{  
-    width: 50px;
-    height: 50px;
+.teachers_photo {  
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     position: relative;
     font-size: 25px;  
+}
+
+/*
+    карусель
+*/
+.carusel{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1000px;
+    height: 400px;
+    margin: auto;
+    font-size: 30px;
+}
+
+.inside_carusel{
+overflow: hidden;
+display: flex;
+align-content: center;
+
+}
+
+.inside_carusel .carusel{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.inside_carusel .sale_photo {
+    
+    width: 400px;
+    height: 200px;
+}
+
+.left_strelka .carusel{
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+.right_strelka .carusel{
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
 }
