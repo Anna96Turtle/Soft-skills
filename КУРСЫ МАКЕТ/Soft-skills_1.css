@@ -296,6 +296,7 @@ p.name_curse {
     карусель
 */
 .carusel{
+    position: relative;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -321,7 +322,6 @@ align-content: center;
 
 
 .inside_carusel .sale_photo {
-    
     width: 400px;
     height: 200px;
 }
