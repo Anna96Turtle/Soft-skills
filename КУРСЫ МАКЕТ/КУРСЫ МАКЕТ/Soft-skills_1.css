@@ -1,0 +1,397 @@
+/*
+    COMMON-STYLES
+*/
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    background: linear-gradient(45deg, #F9E6A9, #81C7BB);
+    z-index: 5;
+}
+
+header.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+footer{
+margin-top: 200px;
+position: relative;
+height: 473px;
+padding-top: 60px;
+background: linear-gradient(45deg, #F9E6A9, #81C7BB);
+
+}
+
+.main-container{ 
+    
+    padding-top: 40px;
+    flex: 50%;
+    background-color: white;
+}
+
+body {
+    margin: 0;
+}
+
+/*button {
+    position: absolute;
+    size: 5px;
+    outline: none;
+    cursor: pointer;
+}*/
+
+h1.green {
+    position: absolute;
+    width: 50%;
+display: flex;
+align-items: center;
+justify-content:flex-end;
+top: 50%;
+transform: translateY(-50%);
+    font-size: 100px;
+    font-weight: bold;
+    color: #438D80;
+    margin: 0;
+}
+
+h1.white {
+    position: absolute;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}
+
+.menu_tab {
+    border-radius: 50%;
+    margin-top: -3px;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+h2.zagolovki {
+    position: relative;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 100px;
+    color: #438D80;
+}
+
+
+h2.zagolovok_centr {
+    margin-top: 100px;
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: #438D80;
+
+}
+
+h2.zagolovki_right {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 300px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #438D80;
+    margin: 0;
+}
+
+h3.black {
+    font-size: 25px;
+    width: 50%;
+    display: flex;
+    align-self: flex-end;
+    justify-content: flex-end;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: bold;
+    color: black;
+    margin-top: 130px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1170px;
+    height: 40px;
+    margin: auto;
+    font-size: 30px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: start;
+    max-width: 1170px;
+    height: 40px;
+    margin: auto;
+    font-size: 30px;
+}
+
+.fone_site {
+    position: absolute;
+    top: 100vh;
+    width: 100%;
+}
+
+.poster {
+    
+    height: 100%;
+    width: 100%
+}
+
+.message {
+    height: calc(100vh - 40px);
+    display: flex; 
+    align-items: center;
+    
+}
+
+.left-part {
+    display: flex;
+    width: 50%;
+    height:  calc(100vh - 40px);
+    justify-content: flex-start;
+}
+
+.right-part{
+    width: 50%;
+    height:  calc(100vh - 40px);
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-flow: wrap;
+}
+
+button.seti {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 50px;
+    height: 50px;
+    border: none;
+    padding: 0;
+    
+}
+
+.o_nas{
+    margin-top: 50px;
+    
+}
+
+h2.centr {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: 50px;
+    font-weight: bold;
+    color: #438D80;
+    margin: 0;
+}
+
+.video {
+    width: 400px;
+    height:300px;
+    margin-left: 100px;
+    position: sticky;
+}
+
+.curse{
+    
+    margin-top: 40px;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    background: none;
+}
+
+.sale{
+    
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    background: none;
+} 
+
+.teachers{
+    margin-top: 40px;  
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    background: none;
+}
+
+h3.name_teachers {
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+    flex-grow: initial;
+    font-size: 2vw;
+}
+
+.variant{
+    
+    background-color: #F9E6A9;
+    justify-content: space-around;
+    width: 20vw ;
+    height: 60vh ;
+    border-radius: 5px;
+    font-size: 16px;
+    flex-shrink: 0;
+    font-weight: bold;
+    color: #438D80;
+}
+
+.variant1{
+    
+    background-color: #F9E6A9;
+    justify-content: space-around;
+    width: 20vw ;
+    height: 80vh ;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    flex-shrink: 0;
+    color: #438D80;
+}
+
+button.zapis{
+    margin: auto;
+    display: flex;
+    align-content: flex-end;
+    justify-content: center;
+    background-color: #219653;
+    margin-top: 8vh;
+}
+
+.checkbox {
+    max-width: 1170px;
+    margin: auto;
+
+}
+
+.awesome-cdx {
+    font-size: 20px;
+}
+
+button.podrobnee {
+    margin: auto;
+    display: flex;
+    align-content: flex-end;
+    justify-content: center;
+    background-color: #219653;
+    margin-top: 20vh;
+}
+
+.photo{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+p.name_curse {
+    height: 5vh;
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+    flex-grow: initial;
+}
+
+.curse_photo {  
+    width: 15vw;
+    height: 15vw;
+    border-radius: 5%;
+    position: relative;
+    font-size: 25px;  
+}
+
+.teachers_photo {  
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    position: relative;
+    font-size: 25px;  
+}
+
+p.teachers_skill {
+    display: flex;
+    margin: 3vh;
+    height: 3vh;
+}
+
+/*
+    карусель
+*/
+.carusel{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1000px;
+    height: 400px;
+    margin: auto;
+    font-size: 30px;
+}
+
+.inside_carusel{
+overflow: hidden;
+display: flex;
+align-content: center;
+transform: translateX(calc (-100% - 10px));
+}
+
+.inside_carusel .carusel{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.inside_carusel .sale_photo {
+    width: 400px;
+    height: 200px;
+}
+
+.left_strelka {
+    margin-right: 20px;
+}
+.right_strelka {
+    margin-left: 20px;
+}
+
+.up_carusel {
+    overflow: hidden;
+}
+
+.left_strelka .carusel{
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+.right_strelka .carusel{
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
